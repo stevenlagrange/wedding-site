@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Geffry;
+    font-weight: 400;
+    font-style: normal;
+    src: url("GEFFRY/geffry-Regular.woff2") format("woff2"), url("GEFFRY/geffry-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Glacial Indifference;
+    font-weight: 400;
+    font-style: normal;
+    src: url("glacial-indifference/WEB/GlacialIndifference-Regular.woff2") format("woff2"), url("glacial-indifference/WEB/GlacialIndifference-Regular.woff") format("woff");
+    font-display: swap;
+}

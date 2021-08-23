@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    title: "Kat and Steves' Wedding Site",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/icon.jpeg",
       },
     },
     "gatsby-plugin-mdx",
@@ -33,5 +33,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: "./src/assets/fonts/"
+      }
+    }
   ],
 };
